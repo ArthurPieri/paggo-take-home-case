@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+
+.main {
+    padding: 30px;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.exit-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* To scale SVG size */
+.exit-button img {
+    width: 24px;
+    height: 24px;
+}
+
+.logo {
+    width: 64px;
+    height: 64px;
+}
+
+footer {
+    background-color: #0a2237;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.upload-text{
+	text-align: center;
+}
+
+.upload-zone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;  /* Adjust box's height */
+    border: 2px dashed #ccc;
+    margin-bottom: 20px;
+    background-image: linear-gradient(rgba(256, 256, 256, 0.25), rgba(256, 256, 256, 0.25)), url('images/upload.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    padding: 20% 0;
+}
+
+#upload-text {
+    position: relative;
+    top: 100%;
+    margin-top: 10px;
+}
+
+.upload-zone:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+

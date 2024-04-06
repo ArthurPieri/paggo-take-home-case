@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Image Upload</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="topbar">
+        <img class="logo" src="images/logo.svg" alt="Logo">
+        <h1>Invoice Metadata</h1>
+        <button class="exit-button" onClick="location.href='exit.html'">
+            <img src="images/exit.svg" alt="Exit">
+        </button>
+    </div>
+
+    <div class="main">
+        <h2>Upload an invoice </h2>
+
+        <div id="upload-zone" class="upload-zone">
+
+        <input type="file" name="image" id="image" accept="image/*" style="display: none;" required>
+
+        <button type="submit" id="upload-button" style="display: none;">Upload</button>
+
+    </div>
+<div class="upload-text">
+	<p>Click or drag and drop an image to upload</p>
+		</div>
+        <p id="status"></p>
+    
+    <footer>
+        Arthur Pieri 2024
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
